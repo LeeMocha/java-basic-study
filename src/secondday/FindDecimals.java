@@ -1,7 +1,5 @@
 package secondday;
 
-import study.exampletutorial.포와와일문.WhileTest1;
-
 import java.util.Scanner;
 
 public class FindDecimals {
@@ -27,15 +25,15 @@ public class FindDecimals {
             }
             System.out.println("계속 하시겠습니까? 1:예  2:아니오");
             int num2 = scanner.nextInt();
-                if (num2 == 1) {
-                    continue;
-                } else if (num2 == 2) {
-                    System.out.println("종료하겠습니다");
-                    break;
-                } else {
-                    System.out.println("보기에 있는 숫자만 쓰시오.");
-                    //바로 위 "계속 하시겠습니까?"로 못넘어가는게 아쉽다.
-                }
+            if (num2 == 1) {
+                continue;
+            } else if (num2 == 2) {
+                System.out.println("종료하겠습니다");
+                break;
+            } else {
+                System.out.println("보기에 있는 숫자만 쓰시오.");
+                //바로 위 "계속 하시겠습니까?"로 못넘어가는게 아쉽다.
             }
         }
     }
+}
