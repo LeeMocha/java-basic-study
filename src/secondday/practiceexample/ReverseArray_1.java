@@ -1,4 +1,4 @@
-package secondday;
+package secondday.practiceexample;
 
 import java.util.Scanner;
 
@@ -7,6 +7,7 @@ public class ReverseArray_1 {
         Scanner scanner = new Scanner(System.in);
         int[] arr = new int[5];
         System.out.println("---- 배열 입력받은 반대로 출력하기 ----");
+        System.out.println("숫자 5개 입력");
         System.out.println("1번째 숫자: ");
         arr[4] = scanner.nextInt();
         System.out.println("2번째 숫자: ");
