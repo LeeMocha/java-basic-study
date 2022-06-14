@@ -10,7 +10,7 @@ public class FindDecimals {
         while (true) {
             System.out.println("숫자를 입력하세요.");
             int num = scanner.nextInt();
-            if (num % 2 == 0 || num == 1) {
+            if (num == 0 || num == 1) {
                 System.out.println(num + "은(는) 소수가 아닙니다.");
             } else if (num != 2 && num % 2 == 0) {
                 System.out.println(num + "은(는 )소수가 아닙니다.");
@@ -26,7 +26,6 @@ public class FindDecimals {
                 System.out.println("계속 하시겠습니까? 1:예  2:아니오");
                 int num2 = scanner.nextInt();
                 if (num2 == 1) {
-                    continue;
                 } else if (num2 == 2) {
                     System.out.println("종료하겠습니다");
                     break;

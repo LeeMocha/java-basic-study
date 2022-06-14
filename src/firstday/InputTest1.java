@@ -1,4 +1,4 @@
-package Firstday;
+package firstday;
 
 import java.io.IOException;
 

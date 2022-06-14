@@ -1,4 +1,4 @@
-package Firstday;
+package firstday;
 
 public class VarTest2 {
     public static void main(String[] args) {
